@@ -1,0 +1,809 @@
+body {
+  margin:0px;
+}
+
+a {
+  text-decoration: none;
+  color:#989898;
+
+}
+
+a:hover {
+  color:#ff7400;
+}
+
+#cover {
+  background: url(pics/cover_h1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width:100%;
+  height: auto;
+  max-height: 600px;
+resize: vertical;
+ margin-top: -15px;
+
+}
+#cover_content {
+  max-width:1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+#cover_logo {
+  background: url(pics/logo_b.png);
+  background-size: 275px;
+  background-position: center top;
+  margin-left: auto;
+  margin-right: auto;
+  height: 430px;
+  max-width:300px;
+  min-width: 150px;
+  display: block;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+#cover-button-container {
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height:100px;
+}
+
+#cover-button {
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#cover-button a {
+  color:white;
+  font-family: "Segoe UI Light";
+  font-size: 30px;
+}
+#header {
+  background-color: #990000;
+  color: white;
+  font-family: "Segoe UI Light";
+  display: block;
+  height: 100px;
+  overflow: auto;
+}
+
+#header-content {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+#header-logo {
+  max-height: 50px;
+  float:left;
+}
+
+#main-menu {
+  float:left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+#main-menu a{
+  color:white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+#main-menu a:hover{
+  color:#ff7400
+}
+#banner {
+  max-width: 75%;
+  height: 300px;
+  background: url(pics/banner.png);
+  background-size: 100%;
+  animation-name: banner-animation;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+}
+
+#place-cover {
+  max-width:100%;
+
+}
+@keyframes banner-animation {
+  0% {
+    background: url(pics/banner.png);
+    background-size: 100%;
+    color:white;
+    max-width: 100%;
+
+  }
+  25% {
+    background: url(pics/banner_02.png);
+    background-size: 100%;
+    max-width: 100%;
+
+
+  }
+  40% {
+    background: url(pics/banner_02.png);
+    background-size: 100%;
+    max-width: 100%;
+
+
+  }
+  65% {
+    background: url(pics/banner_03.png);
+    background-size: 100%;
+    max-width: 100%;
+
+  }
+  100% {
+    background: url(pics/banner.png);
+    background-size: 100%;
+    color:white;
+    max-width: 100%;
+
+  }
+}
+#sidelist {
+  float: left;
+  width: 175px;
+  list-style-type: none;
+}
+
+.listdiv {
+  background-color: #989898;
+  color: white;
+  font-family: "Segoe UI Light";
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+ul {
+  font-family: "Segoe UI Light";
+  font-size: 14px;
+  color: #989898;
+  padding: 0px;
+}
+
+li {
+  padding: 5px;
+}
+
+.listdiv a {
+  color:white;
+}
+.listdiv a:hover {
+  color:#ff7400;
+}
+#index-main-content {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#places {
+  float: left;
+  padding: 15px;
+  max-width: 900px;
+}
+
+#main-place {
+    float: left;
+    padding: 15px;
+    width: 900px;
+
+}
+.title {
+  font-family: "Segoe UI Light";
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: #989898;
+}
+
+.offer {
+  max-width: 200px;
+  float: left;
+  padding: 7px;
+  margin: 7px;
+  background-color: #f1f1f1;
+}
+.offer:hover {
+  zoom: 100%;
+  color: white;
+  background-color: #940000;
+  animation-name: color-offer;
+  animation-duration: 2.5s;
+}
+.offer:hover p{
+  color:white;
+}
+
+@keyframes color-offer {
+  0% {
+    background-color: #ff7400;
+    color:white;
+  }
+  30% {
+    background-color: #ff7400;
+  }
+  60% {
+    background-color: #990000;
+  }
+  100% {
+    background-color: #990000;
+    color:white;
+  }
+}
+
+.place-img {
+  max-width: 190px;
+}
+
+.trip-price {
+  color: #ff7400;
+  font-family: "Segoe UI Light";
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.place-name {
+  color: #990000;
+  font-family: "Segoe UI Light";
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  font-style: italic;
+}
+
+.trip-type {
+  font-size: 12px;
+  color: #989898;
+  font-family: "Calibri Light";
+  margin: 0px;
+}
+
+.trip-date {
+  font-size: 12px;
+  color: #989898;
+  font-family: "Calibri Light";
+  font-weight: bold;
+  margin: 0px;
+
+}
+
+#tripmanager {
+  background-color: #990000;
+  clear: both;
+  max-height: 450px;
+  min-height: 400px;
+  padding-top: 50px;
+}
+
+#trip-form {
+  max-width: 475px;
+  color: white;
+  font-family: "Segoe UI Light";
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#trip-form input {
+  border-radius: 3px;
+  margin: 0px;
+  font-family: "Segoe UI Light";
+  height: 30px;
+  width:245px;
+
+}
+
+#trip-form select {
+  border-radius: 3px;
+  margin: 0px;
+  font-family: "Segoe UI Light";
+  height: 35px;
+  width:250px;
+
+}
+
+#trip-form p {
+  margin: 0px;
+  font-family: "Segoe UI Light";
+}
+
+#trip-form-content{
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.trip-form-input{
+  margin-top:5px;
+  margin-bottom: 5px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+#tripm-button {
+  background-color: #ff7400;
+  color: white;
+  font-family: "Segoe UI Light";
+  border-radius: 3px;
+  font-size: 18px;
+  height: 35px;
+  border-color: #ff7400;
+}
+
+#tripmngr-title {
+  max-width: 460px;
+  font-size: 32px;
+  font-family: "Segoe UI Light";
+  color:white;
+  margin-bottom: 10px;
+
+}
+
+#trip-form-button{
+  margin-top: 20px;
+}
+
+#footer {
+  background-color: #e8e8e8;
+  clear:both;
+  width:100%;
+  height:300px;
+  padding-top: 15px;
+
+}
+
+#newsletter-form input {
+  border-radius: 3px;
+  font-family: "Segoe UI Light";
+  height: 30px;
+}
+
+#newsletter-form p {
+  border-radius: 3px;
+  margin: 0px;
+  font-family: "Segoe UI Light";
+}
+#newsletter-form {
+  max-height: 165px;
+}
+
+#nlf-checkbox {
+  max-height:14px;
+  max-width:14px;
+  float:left;
+  margin-top: :5px;
+  margin-right: 5px;
+}
+
+#nlf-title {
+  font-family: "Segoe UI Light";
+  font-size: 24px;
+  font-weight:bold;
+  color: #940000;
+  margin:0px;
+  padding-bottom: 20px;
+}
+
+#nlf-name {
+  float: left;
+  margin-right: 20px;
+
+}
+
+#nlf-name-input {
+  width:250px;
+}
+
+#nlf-email{
+  float:left;
+  margin-right:20px;
+}
+
+#nlf-email-input {
+  width:250px;
+}
+
+#nlf-cb {
+  margin-top: 20px;
+  float:left;
+}
+
+#nlf-cb-name {
+  width:250px;
+  float:left;
+}
+
+#nlf-button-div {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 150px;
+  float:left;
+}
+#nlf-button {
+  color:white;
+  background-color: #ff7400;
+  border-color: #ff7400;
+  width:150px;
+}
+#footer-inner {
+  max-width:1140px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#footer-info {
+  clear:both;
+}
+
+.footer-info-container {
+  float: left;
+  width:300px;
+  margin-top:20px;
+}
+.footer-info-id {
+  color:#ff7400;
+  font-family: "Segoe UI Light";
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.footer-info-list {
+  list-style-type: none;
+  font-family: "Segoe UI Light";
+
+}
+
+.footer-info-list-item {
+  padding: 0px;
+}
+
+#footer-final {
+  color:#989898;
+  font-family: "Segoe UI Light";
+  clear:both;
+  text-align: center;
+  font-size: 11px;
+}
+
+.main-place-image-container {
+  float:right;
+  max-width: 450px;
+
+}
+.main-place-image {
+  max-width: 450px;
+  margin-bottom: 5px;
+
+}
+.main-place-video {
+  width: 450px;
+  height: 253px;
+  margin-bottom: 5px;
+}
+.main-place-image-b {
+  max-width: 220px;
+  margin-right: 5px;
+  float:left;
+}
+.main-place-image-c {
+  max-width: 220px;
+    float:right;
+}
+
+#main-place-info-container {
+  max-width: 400px;
+  float:left;
+}
+#main-place-info-container p{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.prcinfo{
+  float:left;
+}
+.prcinfo-type{
+  font-family: "Segoe UI Light";
+  font-size: 14px;
+  color:#989898;
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.prcinfo-date {
+  font-family: "Segoe UI Light";
+  font-size: 14px;
+  color:#989898;
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.prcinfo-price{
+  font-size: 36px;
+  font-family: "Segoe UI Light";
+  font-style: italic;;
+  color:#940000;
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.origin {
+  clear: both;
+  font-family: "Segoe UI Light";
+  font-size: 16px;
+  font-weight: bold;
+  color: #989898;
+  padding-top:25px;
+  margin-bottom: 10px;
+}
+
+.origin  select {
+  border-radius: 3px;
+  height: 30px;
+  font-family: "Segoe UI Light";
+}
+.main-place-info-txt {
+  font-family: "Segoe UI Light";
+  font-size: 16px;
+  color: #989898;
+  text-align: justify;
+  max-width: 400px;
+}
+
+.flights-host {
+  width: 900px;
+  clear:both;
+}
+
+.flight-container {
+  width: 400px;
+  float:left;
+}
+
+.flight {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom:10px;
+}
+
+.host {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom:10px;
+}
+#host-container {
+  width: 400px;
+  float:right;
+    margin-left: 25px;
+}
+
+.flight-location {
+  max-width: 200px;
+  text-align: center;
+  margin-left: 40px;
+  float:left;
+  padding-top: 10px;
+  font-family: "Segoe UI Light";
+  color: #989898;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.flight-company {
+  max-width: 50px;
+  float: left;
+}
+.flight-company-name {
+  max-width: 50px;
+  padding-top: 12px;
+  font-family: "Segoe UI Light";
+  color: #989898;
+  font-size: 14px;
+}
+.flight-company-icon-container {
+  max-width: 50px;
+  float: left;
+}
+.flight-company-icon {
+max-width: 50px;
+float: left;
+}
+
+.flight-date {
+  clear:both;
+  font-family: "Segoe UI Light";
+  color: #989898;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.flight-price {
+  float:right;
+  max-width: 75px;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ff7400;
+  color:white;
+  font-family: "Segoe UI Light";
+  font-size: 16px;
+  font-weight: bold;
+}
+.host-pic {
+  float: right;
+  max-width: 110px;
+}
+
+.host-name {
+  float: left;
+  max-width: 200px;
+  float:left;
+  font-family: "Segoe UI Light";
+  color: #989898;
+  font-size: 16px;
+  font-weight: bold;
+}
+.host-perf {
+  max-width: 200px;
+  padding-top: 12px;
+  font-family: "Segoe UI Light";
+  color: #989898;
+  font-size: 14px;
+
+}
+.host-price {
+  max-width: 75px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  background-color: #ff7400;
+  color:white;
+  font-family: "Segoe UI Light";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flight:hover {
+  animation-name: flight-host-hover;
+  animation-duration: 2.5s;
+  color:white;
+  background-color: #940000;
+}
+.host:hover {
+  animation-name: flight-host-hover;
+  animation-duration: 2.5s;
+  color:white;
+  background-color: #940000;
+
+}
+
+.host:hover div {
+  color:white;
+}
+
+.flight:hover div {
+  color:white;
+}
+@keyframes flight-host-hover {
+  0% {
+    background-color: #ff7400;
+    color:white;
+  }
+  30% {
+    background-color: #ff7400;
+  }
+  60% {
+    background-color: #990000;
+  }
+  100% {
+    background-color: #990000;
+    color:white;
+  }
+}
+#contact-form-container {
+  max-width: 400px;
+  float:left;
+}
+#contact-form {
+  max-width: 400px;
+  float:left;
+}
+
+.contact-form-name {
+  font-family: "Segoe UI Light";
+  font-weight: bold;
+  font-style: 16px;
+  color:#989898;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.contact-form-input {
+  height:30px;
+  font-family: "Segoe UI Light";
+  font-style: 14px;
+  border-radius: 3px;
+  width:390px;
+}
+#contact-textarea {
+  height:100px;
+  text-align: top;
+}
+
+#login-index-main {
+  background-color: #990000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#login-form-container .title {
+  color:white;
+}
+#login-form-container {
+  max-width: 400px;
+  float:left;
+  margin-bottom:20px;
+}
+#login-form {
+  max-width: 400px;
+  float:left;
+}
+
+.login-form-name {
+  font-family: "Segoe UI Light";
+  font-weight: bold;
+  font-style: 14px;
+  color:#ffffff;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.login-form-input {
+  height:20px;
+  font-family: "Segoe UI Light";
+  font-style: 14px;
+  border-radius: 3px;
+  width:390px;
+}
+#login-textarea {
+  height:100px;
+  text-align: top;
+}
+
+#login-form a {
+  color:white;
+}
+
+#login-form a:hover {
+  color:#ff7400;
+}
+
+#login-submit {
+  background-color: #ff7400;
+  color:white;
+  font-family: "Segoe UI Light";
+  border-radius: 3px;
+  border-color: #ff7400;
+  margin-top: 10px;
+}
+
+#login-main-place {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 500px;
+margin-bottom: 20px;
+
+}

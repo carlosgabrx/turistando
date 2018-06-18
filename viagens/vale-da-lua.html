@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Turistando</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="header">
+    <div id="header-content">
+      <img id="header-logo" src="pics/logo_a.png">
+      <table id="main-menu">
+        <tr>
+          <td><a href="index.html">Início</a></td>
+          <td><a href="sobre.html">Sobre</a></td>
+          <td><a href="contato.html">Contato</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="banner">
+  </div>
+  <div id="index-main">
+    <div id="index-main-content">
+      <div>
+        <ul id="sidelist">
+          <li class="listdiv">Turistando</li>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li class="listdiv">Viagens</li>
+          <li><a href="passagens.html">Passagens</a></li>
+          <li><a href="hoteis.html">Hotéis</a></li>
+          <li><a href="voos.html">Voos</a></li>
+          <li><a href="cruzeiros.html">Cruzeiros</a></li>
+          <li class="listdiv">Curiosidades</li>
+        </ul>
+      </div>
+      <div id="places">
+        <div class="title">
+          <table>
+            <tr>
+              <td>><i>vale da lua</i></td>
+            </tr>
+          </table>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/places/vale_da_lua_01.jpg">
+          <p class="place-name">Vale da Lua</p>
+          <p class="trip-type">Ida e Volta</p>
+          <p class="trip-date">6/7/2018</p>
+          <p class="trip-price">R$379,90</p>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/cu.jpg">
+          <p class="place-name">Curitiba</p>
+          <p class="trip-type">Somente Ida</p>
+          <p class="trip-date">14/06/</p>
+          <p class="trip-price">R$110,00</p>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/cu.jpg">
+          <p class="place-name">Curitiba</p>
+          <p class="trip-type">Somente Ida</p>
+          <p class="trip-date">14/06/</p>
+          <p class="trip-price">R$110,00</p>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/cu.jpg">
+          <p class="place-name">Curitiba</p>
+          <p class="trip-type">Somente Ida</p>
+          <p class="trip-date">14/06/</p>
+          <p class="trip-price">R$110,00</p>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/cu.jpg">
+          <p class="place-name">Curitiba</p>
+          <p class="trip-type">Somente Ida</p>
+          <p class="trip-date">14/06/</p>
+          <p class="trip-price">R$110,00</p>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/cu.jpg">
+          <p class="place-name">Curitiba</p>
+          <p class="trip-type">Somente Ida</p>
+          <p class="trip-date">14/06/</p>
+          <p class="trip-price">R$110,00</p>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/cu.jpg">
+          <p class="place-name">Curitiba</p>
+          <p class="trip-type">Somente Ida</p>
+          <p class="trip-date">14/06/</p>
+          <p class="trip-price">R$110,00</p>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/cu.jpg">
+          <p class="place-name">Curitiba</p>
+          <p class="trip-type">Somente Ida</p>
+          <p class="trip-date">14/06/</p>
+          <p class="trip-price">R$110,00</p>
+        </div>
+        <div class="offer" id="offer-1">
+          <img class="place-img" src="pics/cu.jpg">
+          <p class="place-name">Curitiba</p>
+          <p class="trip-type">Somente Ida</p>
+          <p class="trip-date">14/06/</p>
+          <p class="trip-price">R$110,00</p>
+        </div>
+      </div>
+    </div>
+    <div id="tripmanager">
+      <form id="trip-form" action="/action_page.php" method="get">
+        <div id="tripmngr-title">
+          <p>Quer viajar? Consulte preços aqui.</p>
+        </div>
+        <div id="trip-form-content">
+          <div class="trip-form-input">
+            <p>Brasil / Exterior</p>
+
+            <select list="place" name="brazil-outside">
+                              <option selected="selected" value="Brasil">Brasil</option>
+                              <option value="exterior">Exterior</option>
+                </select>
+          </div>
+          <div class="trip-form-input">
+            <p>País / Cidade</p>
+            <input type="text" name="country-city">
+          </div>
+          <div class="trip-form-input">
+            <p>Data</p>
+            <input type="date" name="trip-date">
+          </div>
+          <div class="trip-form-input">
+            <p>Pessoas</p>
+            <select>
+              <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
+          </div>
+          <div class="trip-form-input" id="trip-form-button">
+            <input type="submit" id="tripm-button" value="Consultar Preços">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="footer">
+      <div id="footer-inner">
+        <div id="newsletter">
+          <p id="nlf-title">Deseja receber ofertas especiais?</p>
+          <form id="newsletter-form">
+            <div id="nlf-name">
+              <p>Digite o seu nome</p>
+              <input id="nlf-name-input" type="text" name="newsletter-name">
+            </div>
+            <div id="nlf-email">
+              <p>Seu endereço de email</p>
+              <input id="nlf-email-input" type="email" name="newsletter-email">
+            </div>
+            <div id="nlf-cb">
+              <input id="nlf-checkbox" type="checkbox" name="client" value="client">
+              <p id="nlf-cb-name">Já sou cliente de uma loja Turistando.</p>
+            </div>
+            <div id="nlf-button-div">
+              <input id="nlf-button" type="submit" name="newsletter-button" value="Enviar">
+            </div>
+          </form>
+        </div>
+        <div id="footer-info">
+          <div class="footer-info-container">
+            <span class="footer-info-id">INSTITUCIONAL</span>
+            <ul class="footer-info-list">
+              <li class="footer-info-list-item">Sobre a Turistando</li>
+              <li class="footer-info-list-item">Política de Privacidade</li>
+              <li class="footer-info-list-item">Termos e condições de uso</li>
+              <li class="footer-info-list-item">Trabalhe conosco</li>
+            </ul>
+          </div>
+          <div class="footer-info-container">
+            <span class="footer-info-id">AJUDA E OBSERVAÇÕES</span>
+            <ul class="footer-info-list">
+              <li class="footer-info-list-item">Acesso ao Procon/SP</li>
+            </ul>
+          </div>
+          <div id="footer-final">
+            <p>TURISTANDO Brasil • Agência de Viagens | CNPJ:00.000.000/0000-01 | Av. Dona Gertrudes, 001 - Centro - São João da Boa Vista / SP | CEP 00000-001</p>
+            <p>2018 TURISTANDO</p>
+          </div>
+        </div>
+      </div>
